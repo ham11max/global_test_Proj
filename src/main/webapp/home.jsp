@@ -15,16 +15,6 @@
 <body>
 <div align="center">
   <img src="http://www.zip.uz/picture_library/Zip-icon.png" class="img-rounded" height="256px" width="256px"/>
-  <script type="text/javascript">
-    $(function error()  {
-      $('form').submit(function() {
-        if(!$("form input[type=file]").val()) {
-          alert('You must select a file!');
-          return false;
-        }
-      });
-    });
-  </script>
   <script type="text/JavaScript">
     var _validFileExtensions = [".zip", ".rar"];
     function Validate(oForm) {
