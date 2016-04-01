@@ -32,8 +32,6 @@ public class ZipReader {
                 }
                 model.setFileEntities(lines);
                 zipModelArrayList.add(model);
-
-                System.out.println(entry.getName());
             }
             return zipModelArrayList;
         }
