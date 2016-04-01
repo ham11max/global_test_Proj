@@ -13,6 +13,12 @@
     <title>RESULT</title>
 </head>
 <body>
+<div align="center">
+  <font size="8"  face="Times New Roman">
+    <a href="home.jsp" role="button"  class="btn btn-warning" >Go to main page</a>
+  </font>
+</div>
+
 <h1 align="center">Result of Searching </h1>
 <div align="center">
   <p class="bg-primary">${nameOfProduct} -> ${nameOfFile}</p>
@@ -50,7 +56,7 @@
     </tr>
   </c:forEach>
 </table>
-  <a href="home.jsp" role="button"  class="btn btn-primary" >Go to main page</a>
+
 
 </div>
 </body>
