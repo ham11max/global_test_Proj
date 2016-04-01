@@ -50,6 +50,8 @@
     </tr>
   </c:forEach>
 </table>
+  <a href="home.jsp" role="button"  class="btn btn-primary" >Go to main page</a>
+
 </div>
 </body>
 </html>
